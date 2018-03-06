@@ -1,0 +1,14 @@
+<div ng-show="visibility" class="search-results">
+    <h4 style="color: white; font-size: 20px">Search Results:</h4>
+
+    <div class="card">
+        <h3>{{productStatus}}</h3>
+
+        <p><i class="fa fa-map-marker"></i> Code: {{code}}</p>
+
+        <p ng-show="message">Thanks for buying, <strong>{{productName}}</strong></p>
+        <p ng-show="counterfeitMes">Please contact <strong>07xxxxx21</strong>, thank you!</p>
+
+    </div>
+
+</div>

@@ -1,0 +1,142 @@
+body{
+    background: url("../img/sleeek.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+body h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+body p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.navbar-inverted{
+    opacity: 0.8;
+    height: 30px;
+    border: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: 0;
+}
+
+.brand-img {
+    width: auto;
+    margin-top: 5px;
+    height: 40px;
+}
+
+.search-box h2{
+    letter-spacing: 15px;
+}
+
+.search{
+    margin: auto;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.input-field{
+    width: 100%;
+}
+
+.search input{
+    background: white;
+    margin: 10px 0;
+    height: 45px;
+    padding:.75rem 1rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.search select{
+    margin: 10px 0;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.search select option{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.search button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    height: 45px;
+    background: #8B157C;
+    color: white;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.search-results{
+    margin:auto;
+    max-width: 600px;
+}
+
+.search-results h3{
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+    color: grey;
+    font-family: 'Roboto';
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.search-results h3{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.search-results p{
+    text-align: left;
+    color: grey;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+.card {
+    width: 90%;
+    padding:1.5rem;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    background:white;
+    border: 1px solid gainsboro;
+    margin:0 1.5rem 1rem;
+    border-radius:2px;
+    opacity: 0.8;
+}
+
+.alert{
+    margin: 6px 0;
+}
+
+.content-box{
+    margin: auto;
+    padding: 15px;
+    max-width: 400px;
+    background: black;
+    opacity: 0.6;
+}
+

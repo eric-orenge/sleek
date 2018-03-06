@@ -1,0 +1,26 @@
+<div class="search-box">
+    <div class="content-box">
+        <h2>PRODUCT SEARCH</h2>
+
+        <p>Helping you know your products</p>
+
+    <div class="search">
+        <input class="input-field" type="text" placeholder="Product code" ng-model="pCode" required>
+
+        <input class="input-field" type="text" placeholder="Store name" ng-model="sName" required>
+
+        <select class="form-control" id="suite" data-ng-options="item for item in sLocation"
+                data-ng-model="location">
+            <option value="" disabled selected style="display: none">Location</option>
+        </select>
+        <button data-ng-click="search(pCode, sName, location)" style="border-radius: 2px" class="btn">SEARCH</button>
+
+        <div ng-show="error" class="alert alert-danger fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Wrong Store Name</strong>
+        </div>
+    </div>
+
+    </div>
+
+</div>
